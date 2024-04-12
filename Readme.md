@@ -7,9 +7,7 @@
 
 - To test use
   - http://127.0.0.1:8000/members/1
-- Fail member id
-  - http://127.0.0.1:8000/members/2
-Any other id will throw a network exception
+The mock only accept the id 1
 
 - The exercise is not clear if one of the apis fail we return an error, I made the assumption to return data as long as we get at least one response
 - For the sake of this assigment I'm just logging the errors, in a real API we would like to monitor those and alert the team using a service like Sentry
